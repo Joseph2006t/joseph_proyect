@@ -1,0 +1,33 @@
+
+/* En en body, ira lo que queremos que este en el cuerpo de la web */
+body{
+  /* Los tipo de letra que se usaran en la web */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:lightseagreen;
+  
+}
+/* en el nav, ira lo que queremos que este en el nav, que en este caso es la parte en la que 
+estan los links que mandan textos en la web */
+nav{
+  /* Da el color de fondo para el nav*/
+  background-color: #fbefb8;
+
+  color: white;
+  /* sirve para que de mas espacio en el nav entre las palabras tipo link*/
+  padding: 1rem;
+  /* sirven para que cada palabra tipo link del nav esten divididos en el centro de la pagina*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer{
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
